@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zha Chao's Personal Page</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+        
+        .contact {
+            margin: 10px 0;
+            color: #555;
+        }
+        
+        .contact a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        .bio {
+            margin: 20px 0;
+        }
+        
+        h2 {
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 5px;
+            margin: 30px 0 15px 0;
+        }
+        
+        .news-item, .publication, .award, .teaching, .service {
+            margin-bottom: 15px;
+        }
+        
+        .news-date {
+            color: #666;
+            font-weight: bold;
+        }
+        
+        .publication-title {
+            font-weight: bold;
+        }
+        
+        .publication-authors {
+            margin: 3px 0;
+        }
+        
+        .publication-venue {
+            font-style: italic;
+            margin: 3px 0;
+        }
+        
+        .publication-links a {
+            margin-right: 10px;
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        footer {
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9em;
+            text-align: right;
+        }
+    </style>
+    <link rel="stylesheet" href="academicons-1.9.4/css/academicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+<body>
+    <header>
+        <h1>Zha Chao</h1>
+        <div class="contact">
+            <a href="mailto:zhachao21@mails.ucas.ac.cn">
+                <i class="fas fa-envelope"></i>&nbsp;zhachao21@mails.ucas.ac.cn
+            </a><br>
+
+            <a href="https://scholar.google.com.hk/citations?user=iZ-cDDkAAAAJ&hl=zh-CN">
+                <i class="ai ai-google-scholar"></i>&nbsp;Google Scholar
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/ids-sec-hub">
+                <i class="fab fa-github"></i>&nbsp;GitHub
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://orcid.org/0009-0004-6611-2328">
+                <i class="ai ai-orcid"></i>&nbsp;ORCID
+            </a>
+        </div>
+        
+        <div class="bio">
+            I am currently a final-year PhD candidate studying at the ICT, CAS.
+            My research interests is mainly about AI for security, traffic detection, and network intrusion detection.
+            
+            <p>Feel free to reach me out through email.</p>
+        </div>
+    </header>
+    
+    <section id="news">
+        <h2>News</h2>
+        
+        <div class="news-item">
+            <span class="news-date">[2023/9]</span> I have been admitted to the UCAS as a Ph.D student majoring in CS (Direct Ph.D track) !
+        </div>
+        
+        <div class="news-item">
+            <span class="news-date">[2021/9]</span> I have been admitted to the UCAS as a master's student majoring in EI !
+        </div>
+    </section>
+    
+    <section id="publications">
+        <h2>Publications</h2>
+
+        <div class="publication">
+            <div class="publication-title">DM-IDS - A Network Intrusion Detection Method Based on Dual-Modal Fusion</div>
+            <div class="publication-authors">Chao Zha, Zhiyu Wang, Yifei Fan, Bing Bai, Yinjie Zhang, Sainan Shi, Ruyun Zhang</div>
+            <div class="publication-venue"><em>IEEE Transactions on Network and Service Management</em>, 2025. (JCR-I, CCF-C)</div>
+            <div class="publication-links">
+                <a href="https://ieeexplore.ieee.org/abstract/document/10980095">[paper]</a>
+            </div>
+        </div>
+
+        <div class="publication">
+            <div class="publication-title">A-NIDS: Adaptive Network Intrusion Detection System Based on Clustering and Stacked CTGAN</div>
+            <div class="publication-authors">Chao Zha, Zhiyu Wang, Yifei Fan, Bing Bai, Yinjie Zhang, Sainan Shi, Ruyun Zhang</div>
+            <div class="publication-venue"><em>IEEE Transactions on Information Forensics and Security</em>, 2025. (JCR-I, CCF-A)</div>
+            <div class="publication-links">
+                <a href="https://ieeexplore.ieee.org/abstract/document/10926490">[paper]</a>
+                <a href="https://github.com/ids-sec-hub/A-NIDS">[code]</a>
+            </div>
+        </div>
+        
+        <div class="publication">
+            <div class="publication-title">SKT-IDS: Unknown attack detection method based on Sigmoid Kernel Transformation and encoder–decoder architecture</div>
+            <div class="publication-authors">Chao Zha, Zhiyu Wang, Yifei Fan, Xingming Zhang, Bing Bai, Yinjie Zhang, Sainan Shi, Ruyun Zhang</div>
+            <div class="publication-venue"><em>Computers & Security</em>, 2024. (JCR-I, CCF-B)</div>
+            <div class="publication-links">
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167404824003614">[paper]</a>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!--
+    <section id="awards">
+        <h2>Honors & Awards</h2>
+        
+        <div class="award">
+            - Award Name 1, Organization, Year
+        </div>
+        
+        <div class="award">
+            - Award Name 2, Organization, Year
+        </div>
+        
+        <div class="award">
+            - Award Name 3, Organization, Year
+        </div>
+    </section>
+    
+    <section id="teaching">
+        <h2>Teaching Experience</h2>
+        
+        <div class="teaching">
+            - TA for Course Name (for UG/PG, Year Semester)
+        </div>
+        
+        <div class="teaching">
+            - TA for Course Name (for UG/PG, Year Semester)
+        </div>
+    </section>
+    -->
+    
+    <section id="service">
+        <h2>Service</h2>
+        
+        <div class="service">
+            - Reviewer: NeurIPS (2025)
+        </div>
+    </section>
+    
+    <footer>
+        Last updated: 2025/4<br>
+    </footer>
+</body>
+</html>
